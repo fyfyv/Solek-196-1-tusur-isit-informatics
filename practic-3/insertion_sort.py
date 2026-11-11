@@ -9,4 +9,5 @@ def insertion_sort(arr):
             j = j-1
     return arrr
 
-print(insertion_sort([4, 2, 7, 1, 3, 5]))   # [1, 2, 3, 4, 5, 7]
+if __name__ == "__main__":
+    print(insertion_sort([4, 2, 7, 1, 3, 5]))   # [1, 2, 3, 4, 5, 7]
